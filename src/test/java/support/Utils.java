@@ -29,11 +29,9 @@ public class Utils extends RunCucumberTest {
 
         String email_init = "qazando_";
         String email_final = "@qazando.com.br";
-
         Random random = new Random();
         int min = 0;
         int max = 99999999;
-
         int result = random.nextInt(max-min) + min;
 
         return email_init + result + email_final;

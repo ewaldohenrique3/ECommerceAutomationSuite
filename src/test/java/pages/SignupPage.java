@@ -18,7 +18,7 @@ public class SignupPage extends Utils {
     public void selectTitle(Integer type) {
         if (type == 1) {
             driver.findElement(titleM).click();
-        } else {
+        } else if (type == 2){
             driver.findElement(titleF).click();
         }
     }

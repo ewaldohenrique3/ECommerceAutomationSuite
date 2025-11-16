@@ -18,7 +18,7 @@ public class LoginPage extends Utils {
 
     public void acessLoginScreen(){
         driver.get("http://www.automationpractice.pl/index.php?controller=authentication&back=my-account");
-        waitElementBePresent(email_create_field,20);
+        waitElementBePresent(email_create_field, 10);
     }
 
     public void fillEmailCreate(){
